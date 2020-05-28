@@ -1,2 +1,2 @@
 # test
-This is a test reop
+This is a test repository.
