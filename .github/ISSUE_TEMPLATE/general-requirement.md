@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-# Description
+# Requirement
 
 Describe the requirement here in simple and comprehensible terms. Keep it as brief as possible without omitting crucial details. For example, you can write the requirement in the form of a [user story](https://en.wikipedia.org/wiki/User_story).
 
