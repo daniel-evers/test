@@ -17,7 +17,7 @@ Please use English at least for simple issues. However, you can also write in Ge
 
 # Verification
 
-Explicitly list all characteristics and criteria that are to be used to verify the successful implementation of the requirement. Please do not use phrases such as "see above description" or "has to fulfill the requirement". Instead, write down a list of verifiable characteristics, for example. However, it is completely legitimate and even recommended to refer to existing test specifications.
+Explicitly list all characteristics and criteria that are to be used to verify the successful implementation of the requirement. Do not use phrases such as "see above description" or "has to fulfill the requirement". Instead, write down a list of verifiable characteristics, for example. However, it is completely legitimate and even recommended to refer to existing test specifications.
 
 # Dependencies
 
