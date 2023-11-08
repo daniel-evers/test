@@ -21,7 +21,7 @@ Explicitly list all characteristics and criteria that are to be used to verify t
 
 # Dependencies
 
-As soon as the comprehensible specification of the requirement becomes too complicated here, divide it into additional (requirement) issues. To maintain the context, list these here as [task list](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
+As soon as a comprehensible specification of the requirement becomes too complicated here, divide it into additional (requirement) issues. To maintain the context, list these here as [task list](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
 
 - [ ] Reference to parallel (requirement) issue
 - [ ] Reference to subordinate (requirement) issue
