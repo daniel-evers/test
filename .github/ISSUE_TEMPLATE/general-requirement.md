@@ -9,13 +9,13 @@ assignees: ''
 
 # Description
 
-Describe the requirement here in simple and comprehensible terms. Keep it as brief as possible without omitting crucial details. For example, you can write the request in the form of a [user story](https://en.wikipedia.org/wiki/User_story).
+Describe the requirement here in simple and comprehensible terms. Keep it as brief as possible without omitting crucial details. For example, you can write the requirement in the form of a [user story](https://en.wikipedia.org/wiki/User_story).
 
 Please use English at least for simple issues. However, you can also write in German.
 
 # Verification
 
-Explicitly list all characteristics and criteria that are to be used to verify the successful implementation of the requirement. Please do not use phrases such as "see above description". Instead, write down a list of verifiable characteristics, for example.
+Explicitly list all characteristics and criteria that are to be used to verify the successful implementation of the requirement. Please do not use phrases such as "see above description" or "has to fulfill the requirement". Instead, write down a list of verifiable characteristics, for example. However, it is completely legitimate and even recommended to refer to existing test specifications.
 
 # Dependencies
 
