@@ -5,10 +5,10 @@ on:
     if: ${{ startsWith(github.event.comment.body, '⌛ ')
       
 jobs:
-  hide-comment:
+  one:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
     steps:
-      - name: Hide comment
-      - uses: int128/hide-comment-action@v1
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT info"
