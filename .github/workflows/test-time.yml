@@ -2,13 +2,11 @@ name: Test Time
 on:
   issue_comment:
     types: [created, edited, deleted]
-    if: ${{ startsWith(github.event.comment.body, '⌛ ') }}
-      
 jobs:
-  one:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT info"
+      - name: say hello
+        if: contains(github.event.comment.body, '⌛')
+        run: |
+          echo say hello
