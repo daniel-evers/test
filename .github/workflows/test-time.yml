@@ -8,5 +8,7 @@ jobs:
     steps:
       - name: say hello
         if: contains(github.event.comment.body, '⌛')
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
-          echo say hello
+          echo "info $GITHUB_CONTEXT info"
