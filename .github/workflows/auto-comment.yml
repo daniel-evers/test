@@ -1,8 +1,8 @@
-name: Auto Comment
+name: Add comment
 on:
-  issue_comment:
-    types: [created]
-
+  issues:
+    types:
+      - labeled
 jobs:
   add-comment:
     if: github.event.label.name == 'help wanted'
