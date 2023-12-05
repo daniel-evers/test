@@ -4,9 +4,7 @@ labels: ["requirement"]
 body:
   - type: markdown
     attributes:
-      value: |
-        _Consider a compact, meaningful and memorable title for this requirement_
-        <!-- padding -->
+      value: _Consider a compact, meaningful and memorable title for this requirement_
   - type: textarea
     id: requirement
     attributes:
