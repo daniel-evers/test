@@ -7,7 +7,8 @@ body:
       label: Requirement description
       description: Describe the requirement here in simple and comprehensible terms. Keep it as brief as possible without omitting crucial details. For example, you can write the requirement in the form of a [user story](https://en.wikipedia.org/wiki/User_story). Avoid attachments like emails or Office documents as far as possible. Instead, adopt the relevant content directly into this issue. Note that the requirement must not contain any open questions/decisions or possible options that might be implemented. Keep the requirement unambiguous. Please use English at least for simple issues. However, you can also write in German.
       placeholder: |
-        As a _role_ I can _capability_, so that _receive benefit_.
+        
+        As a <role> I can <capability>, so that <receive benefit>.
     validations:
       required: true
   - type: textarea
