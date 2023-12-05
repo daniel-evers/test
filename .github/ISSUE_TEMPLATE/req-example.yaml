@@ -28,11 +28,6 @@ body:
     attributes:
       label: Dependency
       description: As soon as a comprehensible specification of the requirement becomes too complicated here, divide it into additional (requirement) issues. To maintain the context, list these here as [task list](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
-      placeholder: |
-        
-        - [ ] Reference to parallel (requirement) issue
-        - [ ] Reference to subordinate (requirement) issue
-        - [ ] and so on
   - type: markdown
     attributes:
       value: |
@@ -45,7 +40,9 @@ body:
     attributes:
       label: Relationship
       description: If you only want to specify the relationship to other issues without any direct dependencies, do not list them in the Dependency section above. Instead use an ordinary list in this section.
-      placeholder: |
-        
-        - Reference to related issue
-        - and so one
+  - type: markdown
+    attributes:
+      value: |
+        _Consider content like this:_
+        > - Reference to related issue
+        > - and so one
