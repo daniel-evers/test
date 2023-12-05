@@ -2,6 +2,9 @@ name: General requirement form example
 description: This template is used to specify a general requirement.
 labels: ["requirement"]
 body:
+  - type: markdown
+    attributes:
+      value: "## Thank you for contributing to our project!"
   - type: textarea
     id: requirement-description
     attributes:
@@ -42,4 +45,3 @@ body:
         
         - Reference to related issue
         - and so one
-      value:
