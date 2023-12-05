@@ -9,4 +9,9 @@ body:
         Describe the requirement here in simple and comprehensible terms. Keep it as brief as possible without omitting crucial details. For example, you can write the requirement in the form of a [user story](https://en.wikipedia.org/wiki/User_story).
         Avoid attachments like emails or Office documents as far as possible. Instead, adopt the relevant content directly into this issue. Note that the requirement must not contain any open questions/decisions or possible options that might be implemented. Keep the requirement unambiguous.
         Please use English at least for simple issues. However, you can also write in German.
-
+  - type: textarea
+    id: verification-description
+    attributes:
+      label: Verification description
+      description: |
+        Explicitly list all characteristics and criteria that are to be used to verify the successful implementation of the requirement. Do not use phrases such as "see above description" or "has to fulfill the requirement". Instead, write down a list of verifiable characteristics, for example. However, it is completely legitimate and even recommended to refer to existing test specifications.
