@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Consider a compact, meaningful and memorable title for this requirement**
-        .
+        _Consider a compact, meaningful and memorable title for this requirement_
+        <!-- padding -->
   - type: textarea
     id: requirement
     attributes:
