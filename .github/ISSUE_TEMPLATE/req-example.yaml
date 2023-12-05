@@ -17,12 +17,15 @@ body:
     attributes:
       label: Verification description
       description: Explicitly list all characteristics and criteria that are to be used to verify the successful implementation of the requirement. Do not use phrases such as "see above description" or "has to fulfill the requirement". Instead, write down a list of verifiable characteristics, for example. However, it is completely legitimate and even recommended to refer to existing test specifications.
-      placeholder: |
-
-        - Follow the general test specification xyz
-        - Verify that a proper notification will be displayed
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        _Consider content like this:_
+        > - Follow the general test specification _xyz_
+        > - Verify that the <capability> will be <action>
+        > - and so on
   - type: textarea
     id: dependency-description
     attributes:
@@ -31,7 +34,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        _like this_
+        _Consider content like this:_
         > - [ ] Reference to parallel (requirement) issue
         > - [ ] Reference to subordinate (requirement) issue
         > - [ ] and so on
