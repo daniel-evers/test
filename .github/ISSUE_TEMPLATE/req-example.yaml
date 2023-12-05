@@ -36,9 +36,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        - [ ] Reference to parallel (requirement) issue
-        - [ ] Reference to subordinate (requirement) issue
-        - [ ] and so on
+        _like this_
+        > - [ ] Reference to parallel (requirement) issue
+        > - [ ] Reference to subordinate (requirement) issue
+        > - [ ] and so on
   - type: textarea
     id: relationship-description
     attributes:
