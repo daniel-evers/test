@@ -24,7 +24,7 @@ body:
       value: |
         _Consider content like this:_
         > - Follow the general test specification _xyz_
-        > - Verify that the <capability> will be <action>
+        > - Verify that \<capability> will take \<action> in \<way>
         > - and so on
   - type: textarea
     id: dependency-description
