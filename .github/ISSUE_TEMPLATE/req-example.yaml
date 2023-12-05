@@ -2,9 +2,6 @@ name: General requirement form example
 description: This template is used to specify a general requirement.
 labels: ["requirement"]
 body:
-  - type: markdown
-    attributes:
-      value: "## Thank you for contributing to our project!"
   - type: textarea
     id: requirement-description
     attributes:
@@ -33,6 +30,12 @@ body:
       description: As soon as a comprehensible specification of the requirement becomes too complicated here, divide it into additional (requirement) issues. To maintain the context, list these here as [task list](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
       placeholder: |
         
+        - [ ] Reference to parallel (requirement) issue
+        - [ ] Reference to subordinate (requirement) issue
+        - [ ] and so on
+  - type: markdown
+    attributes:
+      value: |
         - [ ] Reference to parallel (requirement) issue
         - [ ] Reference to subordinate (requirement) issue
         - [ ] and so on
