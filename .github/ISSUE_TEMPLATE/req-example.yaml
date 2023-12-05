@@ -19,9 +19,6 @@ body:
       placeholder: |
 
         - Follow the general test specification xyz
-        - Make an update available for the application
-        - Start the application
-        - Wait at least 10 seconds
         - Verify that a proper notification will be displayed
     validations:
       required: true
