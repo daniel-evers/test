@@ -1,5 +1,6 @@
 name: General requirement form example
 description: This template is used to specify a general requirement.
+labels: ["requirement"]
 body:
   - type: textarea
     id: requirement-description
