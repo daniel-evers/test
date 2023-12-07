@@ -1,6 +1,6 @@
 name: General requirement template
 description: This template is used to specify a general requirement. Please note the comments at the fields provided.
-labels: ["requirement"]
+labels: ["type:requirement", "use:draft"]
 body:
   - type: markdown
     attributes:
